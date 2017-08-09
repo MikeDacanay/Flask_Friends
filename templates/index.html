@@ -1,7 +1,7 @@
 <html>
 	<body>
 		<h1>Friends:</h1>
-		<table style="width:100%">
+		<table style="width:975px; border: 5px solid red;">
 			<tr>
 				<th>Name</th>
 				<th>Age</th>
@@ -14,7 +14,7 @@
 				<td>2017</td>
 			</tr>
 <!-- if they click add friend, fill in the below, adding rows each timie theyi add a new friend -->
-<!-- 			</tr>
+<!-- 		</tr>
 				<td>mike</td>
 				<td>16</td>
 				<td>today</td>
@@ -22,5 +22,11 @@
 			</tr> -->
 <!-- finish if -->
 		</table>
+		<br>
+		<form action='/more' method='post'>
+			Name: <input type='text' name='name1'>
+			Age: <input type='text' name='age1'>
+			<input type='submit' value='Submit'>
+		</form>
 	</body>
 </html>
